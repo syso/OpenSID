@@ -11,9 +11,7 @@ F_CPU = 16000000UL
 FORMAT = ihex
 TARGET = main
 
-SRC = src/$(TARGET).c	\
-      src/lib/fifo.c	\
-      src/lib/usart.c
+SRC = src/$(TARGET).c
 ASRC = 
 OPT = s
 
