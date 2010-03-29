@@ -21,4 +21,3 @@ BOOT_SIZE=$3
 
 # Temporary workaround
 $SIZE $1 | $TAIL -1 | $CUT -c1-20 | (read i j && $ECHO $(($FLASH_SIZE - $BOOT_SIZE - (i + j))) "bytes left")
-
